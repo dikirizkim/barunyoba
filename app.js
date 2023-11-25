@@ -13,11 +13,20 @@ app.get("/api", (req, res) => {
       id: 1,
       nama: "Yanto",
       kelas: "TT-40-01",
+      provinsi:"Bantek",
+      kota:"Bantek",
+      kecataman:"Banten",
+      desa:"Bannte",
+
     },
     {
       id: 2,
       nama: "Sugito",
       kelas: "TT-42-02",
+      provinsi:"Bantek",
+      kota:"Bantek",
+      kecataman:"Banten",
+      desa:"Bannte",
     },
   ]);
 });
